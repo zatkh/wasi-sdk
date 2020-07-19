@@ -21,8 +21,8 @@ else
 fi
 
 testdir=$(dirname $0)
-CC=${CC:=clang}
-CXX=${CXX:=clang++}
+CC=$PWD/../build/install/opt/wasi-sdk/bin/clang  #${CC:=clang}
+CXX=$PWD/../build/install/opt/wasi-sdk/bin/clang++ #${CXX:=clang++}
 
 echo $CC
 echo $CXX
