@@ -40,7 +40,7 @@ set(CMAKE_DL_LIBS "")
 # Explicitly disable eigen parallelisation
 add_definitions(-DEIGEN_DONT_PARALLELIZE=1)
 
-# Add definition for flagging
+# Add definition for flagging vwasm
 add_definitions(-D__vwasm)
 
 # Note: see Clang wasm-specific flags at https://clang.llvm.org/docs/ClangCommandLineReference.html#webassembly
